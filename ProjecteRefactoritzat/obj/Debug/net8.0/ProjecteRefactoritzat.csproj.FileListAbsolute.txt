@@ -1,0 +1,15 @@
+C:\Users\arnau\review_one\ProjecteRefactoritzat\bin\Debug\net8.0\ProjecteRefactoritzat.exe
+C:\Users\arnau\review_one\ProjecteRefactoritzat\bin\Debug\net8.0\ProjecteRefactoritzat.deps.json
+C:\Users\arnau\review_one\ProjecteRefactoritzat\bin\Debug\net8.0\ProjecteRefactoritzat.runtimeconfig.json
+C:\Users\arnau\review_one\ProjecteRefactoritzat\bin\Debug\net8.0\ProjecteRefactoritzat.dll
+C:\Users\arnau\review_one\ProjecteRefactoritzat\bin\Debug\net8.0\ProjecteRefactoritzat.pdb
+C:\Users\arnau\review_one\ProjecteRefactoritzat\obj\Debug\net8.0\ProjecteRefactoritzat.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\arnau\review_one\ProjecteRefactoritzat\obj\Debug\net8.0\ProjecteRefactoritzat.AssemblyInfoInputs.cache
+C:\Users\arnau\review_one\ProjecteRefactoritzat\obj\Debug\net8.0\ProjecteRefactoritzat.AssemblyInfo.cs
+C:\Users\arnau\review_one\ProjecteRefactoritzat\obj\Debug\net8.0\ProjecteRefactoritzat.csproj.CoreCompileInputs.cache
+C:\Users\arnau\review_one\ProjecteRefactoritzat\obj\Debug\net8.0\ProjecteRefactoritzat.sourcelink.json
+C:\Users\arnau\review_one\ProjecteRefactoritzat\obj\Debug\net8.0\ProjecteRefactoritzat.dll
+C:\Users\arnau\review_one\ProjecteRefactoritzat\obj\Debug\net8.0\refint\ProjecteRefactoritzat.dll
+C:\Users\arnau\review_one\ProjecteRefactoritzat\obj\Debug\net8.0\ProjecteRefactoritzat.pdb
+C:\Users\arnau\review_one\ProjecteRefactoritzat\obj\Debug\net8.0\ProjecteRefactoritzat.genruntimeconfig.cache
+C:\Users\arnau\review_one\ProjecteRefactoritzat\obj\Debug\net8.0\ref\ProjecteRefactoritzat.dll
