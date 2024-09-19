@@ -1,1 +1,2 @@
-# Primera activitat \nAquest repositori conte les activitats de repas I del m•dul de projectes
+# Primera activitat 
+Aquest repositori conte les activitats de repas I del modul de projectes
