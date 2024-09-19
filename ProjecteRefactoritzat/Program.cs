@@ -4,25 +4,10 @@ class Program
 {
     static void Main(string[] args)
     {
-        /*int nota1 = 0;
-        int nota2 = 0;
-        int nota3 = 0;*/
-
-        //Millor fer array de notes
 
         int[] notes = new int[3];
         int suma = 0;
-
-        /*Console.WriteLine("Introdueix la primera qualificació");
-        nota1 = Convert.ToInt32(Console.ReadLine());
-
-        Console.WriteLine("Introdueix la segona qualificació: ");
-        nota2 = Convert.ToInt32(Console.ReadLine());
-
-        Console.WriteLine("Introdueix la tercera qualificació: ");
-        nota3 = Convert.ToInt32(Console.ReadLine());*/
-
-        //Repetició de codi, millor fer array de notes i plenarlo amn un "for"
+        
 
         for (int i = 0; i < 3; i++)
         {
@@ -31,11 +16,7 @@ class Program
             suma += notes[i];
         }
 
-        //int suma = nota1 + nota2 + nota3; Ja sumem les notes al bucle
-
-        //float promig = suma / 3; No dividim entre 3, ho fem amb la llargada de l'array com es fa abaix
-
-        float promig = suma / notes.Length; //Dividim per la llargada de l'array de 3 notes i aixi es escalable en cas de tenir-ne més
+        float promig = suma / notes.Length; 
 
         Console.WriteLine("El promig de les notes es: " + promig);
 
@@ -43,15 +24,43 @@ class Program
         {
             Console.WriteLine("Aprovat");
         }
-        /*else if (promig < 6) //No cal posar la condició, ja que si no es aprovat, es suspès
-        {
-            Console.WriteLine("Suspès");
-        }*/
         else
         {
             Console.WriteLine("Suspès");
         }
+
+        //Diccionari amb ciutats i codis postals
+
+        string ciutat = "";
+        int codiPostal =0;
+        Dictionary<string, int> ciutats = new Dictionary<string, int>();
+        string sortida = "";
+
+
+        while(sortida != "fi")
+        {
+            Console.WriteLine("Introdueix una ciutat (o escriu 'fi' per acabar)");
+            ciutat = Console.ReadLine();
+
+            if(ciutat != "fi")
+            {
+                Console.WriteLine("Introdueix el codi postal de " + ciutat);
+                codiPostal = Convert.ToInt32(Console.ReadLine());
+                ciutats.Add(ciutat, codiPostal);
+            }
+            else
+            {
+                sortida = "fi";
+            }
+        }
+
+        Console.WriteLine("\nLlistat de ciutats i codis postals:\n");
+        foreach(var item in ciutats)
+        {
+            Console.WriteLine(item.Key + " - " + item.Value);
+        }
     }
+    
 }
 
 
